@@ -1,0 +1,75 @@
+
+
+
+@media screen and (max-width: 1400px){
+   #profil {
+        height: 83vh;
+        margin-bottom: 6rem;
+   }
+}
+
+
+@media screen and (max-width: 1200px){
+    #nav-utama {
+        display: none;
+    }
+    #nav-hp{
+        display: flex;
+    }
+    #profil, .section-container {
+        display: block;
+    }
+    section, .section-container {
+        height: fit-content;
+    }
+    section {
+        margin: 0 10%;
+    }
+    .section-pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about-container {
+        margin-top: 0;
+    }
+    #projek {
+        margin-bottom: 300%;
+    }
+    #kontak, .title-contact {
+        margin-bottom: 5rem;
+        font-size: 2rem;
+    }
+}
+
+@media  screen and (max-width: 1200px) {
+    .projek-container {
+        flex-wrap: wrap;
+    }
+    
+}
+@media  screen and (max-width: 1200px) {
+    .about-container {
+        flex-wrap: wrap;
+    }
+    #tentang, .section-container {
+        margin-bottom: 110%;
+    }
+}
+
+@media  screen and (max-width: 1200px) {
+    #kontak, .icon-contact {
+        width: 40px;
+    }
+    #kontak, .info-contact a {
+        font-size: 20px;
+    }
+    #kontak {
+        margin-bottom: 50%;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="cv.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="nav-utama">
+        <div class="logo">William Benediktus</div>
+        <div>
+            <ul class="nav-bagian">
+                <li><a href="#nav-utama">Home</a></li>
+                <li><a href="#tentang">About Me</a></li>
+                <li><a href="#projek">Projects</a></li>
+                <li><a href="#kontak">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="nav-hp">
+        <div class="logo">William Benediktus</div>
+        <div class="nav-hp-menu">
+            <div class="hp-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="link-menu">
+                <li><a href="#tentang" onclick="toggleMenu()">About Me</a></li>
+                <li><a href="#projek"  onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#kontak"  onclick="toggleMenu()">Contact Me</a></li>
+            </div>
+        </div>
+    </nav>
+    <div class="underline"></div>
+    <section id="profil">
+        <div class="section-pic-container">
+            <img src="poto-profil.png" alt="William Benediktus Profile Picture">
+        </div>
+        <div class="section-text">
+            <p class="section-text-p1">Hai, saya</p>
+            <h1 class="title">William Benediktus</h1>
+            <p class="section-text-p2">Mahasiwa IT</p>
+            <button class="btn btn-color-1" onclick="location.href='./#kontak'">Informasi kontak</button>
+        </div>
+    </section>
+    <section id="tentang">
+        <h3 class="title">About Me</h3>
+        <div class="section-container">
+            <div class="section-pic-container">
+                <img src="aboutpic1.jpg" alt="profile picture" class="about-pic">
+            </div>
+            <div class="about-detail-container">
+                <div class="about-container">
+                    <div class="detail-container">
+                        <h3>Pendidikan</h3>
+                        <p>SMPN 3 Binjai <br> SMAN 4 Binjai <br> Teknologi Informasi (Undergraduate) </p>
+                    </div>
+                    <div class="detail-container">
+                        <h3>Soft Skill</h3>
+                        <p>Designer<br> Photographer</p>
+                    </div>
+                    <div class="detail-container">
+                        <h3>Experience</h3>
+                        <p>Designer<br> Photographer</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Saya merupakan mahasiswa dari Universitas Sumatera Utara yang mendalami bidang pada komputer di prodi Teknologi Informasi. <br> Saya juga mengkhususkan diri untuk mempelajari bidang Web Development dan Mobile development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projek">
+        <h1 class="title">Project</h1>
+        <div class="about-container">
+            <div class="projek-container">
+                <div class="detail-projek-container">
+                    <h3 class="sub-projek-title">Project One</h3>
+                        <div class="projek-detail">
+                            <img src="Tabel.png" alt="Project" class="project-img">
+                </div>
+                    <div class="btn-container">
+                        <button class="project-btn" onclick="location.href='https://tugaswilliam.000webhostapp.com/TugasTabel.html'">
+                        Tabel
+                        </button>
+                    </div>
+                </div>
+                <div class="detail-projek-container">
+                    <h3 class="sub-projek-title">Project Two</h3>
+                <div class="projek-detail">
+                    <img src="FormE-Sport.png" alt="Project" class="project-img">
+                </div>
+                    <div class="btn-container">
+                        <button class="project-btn" onclick="location.href='https://tugaswilliam.000webhostapp.com/TugasForm.html'">
+                        Form E-Sport
+                        </button>
+                    </div>
+                </div>
+                <div class="detail-projek-container">
+                    <h3 class="sub-projek-title">Project Three</h3>
+                <div class="projek-detail">
+                    <img src="Kalkulator.png" alt="Project" class="project-img">
+                </div>
+                    <div class="btn-container">
+                        <button class="project-btn" onclick="location.href='https://tugaswilliam.000webhostapp.com/TugasKalkulator.html'">
+                        Kalkulator
+                        </button>
+                    </div>
+                </div>
+                <div class="detail-projek-container">
+                    <h3 class="sub-projek-title">Project Four</h3>
+                <div class="projek-detail">
+                    <img src="BootStrap.png" alt="Project" class="project-img">
+                </div>
+
+                    <div class="btn-container">
+                        <button class="project-btn" onclick="location.href='https://tugaswilliam.000webhostapp.com/TugasBootstrap.html'">
+                        Bootstrap
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="kontak">
+        <h1 class="title-contact">Contact Me</h1>
+        <div class="contact-info">
+            <div class="contact-info-container">
+               <div class="info-contact">
+                    <img src="linkedin.png" alt="mylinkedin" class="icon-contact">
+                    <p><a href="https://www.linkedin.com/in/william-benediktus-7564ba2a6/ linkdin" target="_blank">Linkedin</a></p>
+               </div>
+
+                <div class="info-contact">
+                    <img src="instagram.png" alt="mylinkedin" class="icon-contact">
+                    <p><a href="https://www.instagram.com/liamboy_28/" target="_blank">Instagram</a></p>
+                </div>
+           
+               <div class="info-contact">
+                    <img src="tik-tok.png" alt="mylinkedin" class="icon-contact">
+                    <p><a href="https://www.tiktok.com/@liam_052809 tiktok" target="_blank">TikTok</a></p>
+               </div>
+
+                <div class="info-contact">
+                    <img src="github.png" alt="mylinkedin" class="icon-contact">
+                    <p><a href="https://github.com/LiamBoy2809" target="_blank">Github</a></p>
+                </div>
+   
+                <div class="info-contact">
+                    <img src="email.png" alt="mylinkedin" class="icon-contact">
+                    <p><a href="mailto:williambernediktus@gmail.com" target="_blank">E-mail</a></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+            <div class="nav-bawah">
+                <ul class="nav-bagian">
+                    <li><a href="#nav-utama">Home</a></li>
+                    <li><a href="#tentang">About Me</a></li>
+                    <li><a href="#projek">Projects</a></li>
+                </ul>
+            </div>
+        <p>Copyright &#169; 2024 William Benediktus, All Rigths Reserved.</p>
+    </footer>
+    <script src="cv.js"></script>
+</body>
+</html>
